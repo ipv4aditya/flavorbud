@@ -1,23 +1,29 @@
-ul {
+ul{
 font-size: 20px;
 }
 
-.mindetail {
+.mindetail{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(2, 90, 0);
 }
 
-dt {
+h2{
+    font-family: fantasy;
+}
+
+dt{
     font-family: 'Preahvihear', sans-serif;
 }
 
-a:hover{
+dd{
+font-size: 18px;
+}
 
+a:hover{
     background-color: aqua;
 }
 
-a:visited{
-background-color: rgb(142, 255, 185);
-
+.categories{
+font-size: 21px;
 }
