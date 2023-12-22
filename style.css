@@ -1,9 +1,19 @@
-.types {
-    font-family: 'Preahvihear', sans-serif;
+ul {
+font-size: 20px;
 }
+
 
 .mindetail {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(2, 90, 0);
+}
+
+dt {
+    font-family: 'Preahvihear', sans-serif;
+}
+
+a:hover{
+
+    background-color: aqua;
 }
