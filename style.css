@@ -2,7 +2,6 @@ ul {
 font-size: 20px;
 }
 
-
 .mindetail {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
@@ -16,4 +15,9 @@ dt {
 a:hover{
 
     background-color: aqua;
+}
+
+a:visited{
+background-color: rgb(142, 255, 185);
+
 }
