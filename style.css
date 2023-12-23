@@ -10,6 +10,12 @@ p, span{
     font-size: 20px;
 }
 
+.embedvids{
+    color: rgb(221, 15, 8);
+    font-family: monospace;
+    font-size: 17px;
+}
+
 dt, dd, li{
 font-size: 18px;
 }
