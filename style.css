@@ -3,10 +3,6 @@ h2 {
     font-family: 'Trebuchet MS'
 }
 
-h3 {
-    font-family: ;
-}
-
 p,
 span {
     font-size: 20px;
@@ -18,12 +14,12 @@ span {
     font-size: 17px;
 }
 
-dt,
-dd,
-li {
+li,
+dt {
     font-size: 18px;
 }
 
-dt, h3 {
+dt,
+h3 {
     font-family: 'Preahvihear', sans-serif;
 }
