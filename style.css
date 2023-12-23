@@ -6,11 +6,15 @@ h2{
     font-family: 'Trebuchet MS';
 }
 
-p{
+p, span{
     font-size: 20px;
 }
 
-dt, dd{
+dt, dd, li{
 font-size: 18px;
+}
+
+dt{
+    font-family:'Times New Roman';
 }
 
