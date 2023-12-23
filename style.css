@@ -1,26 +1,29 @@
-h1{
+h1,
+h2 {
     font-family: 'Trebuchet MS'
 }
 
-h2{
-    font-family: 'Trebuchet MS';
+h3 {
+    font-family: ;
 }
 
-p, span{
+p,
+span {
     font-size: 20px;
 }
 
-.embedvids{
+.embedvids {
     color: rgb(221, 15, 8);
     font-family: monospace;
     font-size: 17px;
 }
 
-dt, dd, li{
-font-size: 18px;
+dt,
+dd,
+li {
+    font-size: 18px;
 }
 
-dt{
-    font-family:'Times New Roman';
+dt, h3 {
+    font-family: 'Preahvihear', sans-serif;
 }
-
