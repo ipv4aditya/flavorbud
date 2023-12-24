@@ -4,6 +4,7 @@ h1, h2 {
 
 h1{
     text-align: center;
+    text-shadow: -2px -1px 15px;
     margin-top: 40px;
 }
 
