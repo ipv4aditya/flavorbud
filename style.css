@@ -45,15 +45,13 @@ ul {
 h2 {
     font-family: 'Poppins', sans-serif;
     text-decoration: underline;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 4px;
     text-decoration-color: #1fffdddb;
     margin-left: 15px;
 }
 
 
-.lorem,
-p,
-dl {
+.lorem, p, dl, .heads {
     font-family: 'Noto Serif KR', serif;
     margin-left: 16px;
 }
@@ -64,10 +62,13 @@ dt {
     margin-left: 15px;
 }
 
-dd,
-p {
+dd, p {
     font-family: 'Noto Serif KR', serif;
     font-size: 18px;
+}
+
+.lastline{
+font-weight: bolder;
 }
 
 .alldd {
@@ -77,3 +78,4 @@ p {
 iframe {
     margin-left: 15px;
 }
+
