@@ -3,6 +3,18 @@
 /* font-family: 'Noto Serif KR', serif;
 font-family: 'Poppins', sans-serif; */
 
+hr {
+    width: 76%;
+    border: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(31, 255, 221, 0.859);
+}
+
+img {
+    margin-left: 15px;
+}
+
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
@@ -11,8 +23,41 @@ h1 {
     text-shadow: 1px 1px 70px;
 }
 
-ul{
-    font-size: 20px;
-    margin-bottom: 55px;
+.firstlist {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Noto Serif KR', serif;
 }
 
+
+ul {
+    font-size: 20px;
+    margin-bottom: 55px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+
+.lorem, p, dl {
+    font-family: 'Noto Serif KR', serif;
+    margin-left: 15px;
+}
+
+dt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+dd, p {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 18px;
+}
+
+.alldd{
+    margin-bottom: 15px;
+}
