@@ -7,14 +7,17 @@ font-family: 'Poppins', sans-serif; */
 
 
 body{
-background-image: url(/Medias/ice_cream.jpg);
+background-image: url(ice_cream.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-background-attachment: fixed;
 }
 
-
+.navbar{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Noto Serif KR', serif;
+}
 
 hr {
     width: 76%;
@@ -33,7 +36,7 @@ h1 {
     font-size: 45px;
     margin-top: 40px;
     text-align: center;
-    text-shadow: 1px 1px 140px;
+    text-shadow: 1px 1px 140px black;
 }
 
 .firstlist {
