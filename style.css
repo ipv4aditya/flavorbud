@@ -73,11 +73,11 @@ dt {
     margin-left: 15px;
 }
 
-iframe{
-margin-left: 15px;
-display: block;
-justify-content: center;
-align-items: center;
+
+.embedvids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 dd,
