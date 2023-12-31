@@ -37,7 +37,6 @@ hr {
 }
 
 img,
-iframe,
 .alldd {
     margin-left: 15px;
 }
@@ -72,6 +71,13 @@ dt {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     margin-left: 15px;
+}
+
+iframe{
+margin-left: 15px;
+display: block;
+justify-content: center;
+align-items: center;
 }
 
 dd,
