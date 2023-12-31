@@ -6,18 +6,27 @@ font-family: 'Noto Serif KR', serif;
 font-family: 'Poppins', sans-serif; */
 
 
-body{
-background-image: url(Medias/ice_cream.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+body {
+    background-image: url(Medias/ice_cream.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.navbar{
-    font-size: 18px;
-    text-align: center;
-    font-family: 'Noto Serif KR', serif;
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 55px;
 }
+
+li {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Noto Serif KR', serif;
+
+}
+
 
 hr {
     width: 76%;
@@ -27,7 +36,9 @@ hr {
     border: 1px solid #000000db;
 }
 
-img {
+img,
+iframe,
+.alldd {
     margin-left: 15px;
 }
 
@@ -36,21 +47,9 @@ h1 {
     font-size: 45px;
     margin-top: 40px;
     text-align: center;
-    text-shadow: 1px 1px 140px black;
+    text-shadow: 1px 1px 90px black;
 }
 
-.firstlist {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    font-family: 'Noto Serif KR', serif;
-}
-
-
-ul {
-    font-size: 16px;
-    margin-bottom: 55px;
-    font-family: 'Noto Serif KR', serif;
-}
 
 h2 {
     font-family: 'Poppins', sans-serif;
@@ -61,7 +60,10 @@ h2 {
 }
 
 
-.lorem, p, dl, .heads {
+.lorem,
+p,
+dl,
+.heads {
     font-family: 'Noto Serif KR', serif;
     margin-left: 16px;
 }
@@ -72,20 +74,12 @@ dt {
     margin-left: 15px;
 }
 
-dd, p {
+dd,
+p {
     font-family: 'Noto Serif KR', serif;
     font-size: 18px;
 }
 
-.lastline{
-font-weight: bolder;
+.lastline {
+    font-weight: bolder;
 }
-
-.alldd {
-    margin-bottom: 15px;
-}
-
-iframe {
-    margin-left: 15px;
-}
-
