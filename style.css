@@ -17,9 +17,7 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-bottom: 55px;
-    position: sticky;
-    top: 0px;
+    margin-bottom: 55px; 
 }
 
 #about_Nav{
