@@ -11,29 +11,37 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0;
+}
+
+
+nav {
+    background-color: aquamarine;
+    position: sticky;
+    top: 0px;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-bottom: 55px; 
+    margin-bottom: 55px;
 }
 
-#about_Nav{
+#about_Nav {
     padding-left: 30px;
 
 }
 
-#contact_Nav{
+#contact_Nav {
     padding-right: 70px;
 }
 
 li {
     padding: 10px;
+    margin-top: -28px;
     font-size: 18px;
     font-family: 'Noto Serif KR', serif;
-
 }
 
 
