@@ -5,21 +5,23 @@
 font-family: 'Noto Serif KR', serif;
 font-family: 'Poppins', sans-serif; */
 
+@media (max-width: 750px) {
+    h1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    }
+    
+}
 
 body {
     background-image: url(Medias/ice_cream.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    ;
 }
 
-
-nav {
-    background-color: aquamarine;
-    border-radius: 25px;
-    position: sticky;
-    top: 0px;
-}
 
 nav ul {
     display: flex;
@@ -28,24 +30,13 @@ nav ul {
     margin-bottom: 55px;
 }
 
-.heads{
-    padding-top: 2px;
-}
-
-#about_Nav {
-    padding-left: 30px;
-
-}
-
-#contact_Nav {
-    padding-right: 70px;
-}
-
-li {
-    /* padding: 10px; */
-    /* margin-top: -28px; */
+#aboutli{
     font-size: 18px;
-    font-family: 'Noto Serif KR', serif;
+    padding: 20px;
+}
+
+.heads {
+    padding-top: 2px;
 }
 
 
