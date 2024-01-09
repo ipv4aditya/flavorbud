@@ -16,11 +16,22 @@ body {
   background-size: cover;
 }
 
+img{
+    margin-left: var(--left-margin);
+}
+
 header {
   /* position: sticky; */
   /* top: 0px; */
   margin-bottom: 60px;
   margin-top: 65px;
+}
+
+#start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
 }
 
 h1 {
