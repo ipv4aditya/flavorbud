@@ -5,22 +5,62 @@
 font-family: 'Noto Serif KR', serif;
 font-family: 'Poppins', sans-serif; */
 
-@media (max-width: 750px) {
-    h1 {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    }
-    
-}
 
 body {
     background-image: url(Medias/ice_cream.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    ;
 }
+
+
+/* Original styles for larger screens */
+
+body {
+    background-image: url(Medias/ice_cream.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 55px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 90px black;
+}
+
+/* New styles for smaller screens (mobile) */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: auto; /* Adjust background size for smaller screens */
+    }
+
+    h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack the navigation links vertically on smaller screens */
+        margin-bottom: 20px; /* Reduce the margin for smaller screens */
+    }
+
+    .navlists {
+        text-align: center; /* Center-align the navigation links on smaller screens */
+        padding: 10px 0; /* Add padding to the navigation links for better touch interaction */
+    }
+}
+
+
 
 
 nav ul {
