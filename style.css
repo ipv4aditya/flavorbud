@@ -9,12 +9,24 @@
   --heading-font: "Poppins", sans-serif;
 }
 
-@media screen and (max-width:470px) {
-
-  header{
-    margin-left: 300px;
+@media screen and (min-width: 450px) and (max-width: 470px) {
+  header {
+    margin-right: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
   }
-   
+
+  h1{
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  header {
+  margin-left: 30px;
+  }
 }
 
 body {
@@ -24,8 +36,8 @@ body {
   background-size: cover;
 }
 
-img{
-    margin-left: var(--left-margin);
+img {
+  margin-left: var(--left-margin);
 }
 
 header {
@@ -35,11 +47,11 @@ header {
   margin-top: 65px;
 }
 
-#start{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 70px;
+#start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
 }
 
 h1 {
