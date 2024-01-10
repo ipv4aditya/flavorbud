@@ -17,6 +17,10 @@
     align-items: center;
   }
 
+  h1 {
+    font-size: 25px;
+  }
+
   nav {
     margin-top: -15px;
   }
@@ -31,7 +35,7 @@
 @media screen and (max-width: 450px) {
   header {
     --header-margin: 20px;
-    margin-left: var(--header-margin)
+    margin-left: var(--header-margin);
   }
 
   nav {
