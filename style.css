@@ -14,18 +14,21 @@
     margin-right: -20px;
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
   }
 
-  h1{
-    font-size: 300px;
+  nav {
+    margin-top: -15px;
   }
-
 }
 
 @media screen and (max-width: 450px) {
   header {
-  margin-left: 30px;
+    margin-left: 30px;
+  }
+
+  nav {
+    margin-top: -15px;
   }
 }
 
@@ -41,10 +44,8 @@ img {
 }
 
 header {
-  /* position: sticky; */
-  /* top: 0px; */
   margin-bottom: 60px;
-  margin-top: 65px;
+  margin-top: 55px;
 }
 
 #start {
@@ -58,6 +59,8 @@ h1 {
   font-family: var(--heading-font);
   text-align: center;
   font-size: 45px;
+  width: 40px;
+  /* margin: 0 auto; */
 }
 
 nav ul {
