@@ -5,7 +5,7 @@
 /* For normal texts - font-family: 'Poppins', sans-serif; */
 
 :root {
-  --left-margin: 15px;
+  --left-margin: 8px;
   --heading-font: "Poppins", sans-serif;
 }
 
@@ -20,15 +20,32 @@
   nav {
     margin-top: -15px;
   }
+
+  iframe {
+    width: 400px;
+    height: 250px;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 450px) {
   header {
-    margin-left: 30px;
+    --header-margin: 30px;
+    margin-left: var(--header-margin)
+  }
+
+  p {
+    margin-left: 5px;
   }
 
   nav {
     margin-top: -15px;
+  }
+
+  iframe {
+    width: 350px;
+    height: 250px;
+    margin: auto;
   }
 }
 
