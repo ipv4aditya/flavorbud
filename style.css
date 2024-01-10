@@ -59,7 +59,7 @@ h1 {
   font-family: var(--heading-font);
   text-align: center;
   font-size: 45px;
-  width: 40px;
+  /* width: 40px; */
   /* margin: 0 auto; */
 }
 
