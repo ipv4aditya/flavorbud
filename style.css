@@ -9,6 +9,16 @@
   --heading-font: "Poppins", sans-serif;
 }
 
+@media screen and (max-width:650px) {
+  header{
+    margin-right: 130px;
+  }
+
+  /* p{
+word-break: break-all;
+  } */
+}
+
 body {
   background-image: url(Medias/home.png);
   background-position: center;
