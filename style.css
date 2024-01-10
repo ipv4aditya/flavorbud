@@ -30,12 +30,8 @@
 
 @media screen and (max-width: 450px) {
   header {
-    --header-margin: 30px;
+    --header-margin: 25px;
     margin-left: var(--header-margin)
-  }
-
-  p {
-    margin-left: 5px;
   }
 
   nav {
