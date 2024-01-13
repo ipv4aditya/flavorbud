@@ -54,7 +54,7 @@ h1 {
   margin-left: 520px;
 }
 
-ul {
+nav ul {
   display: flex;
   margin-left: 350px;
 }
@@ -101,12 +101,14 @@ p {
   margin-bottom: 60px;
 }
 
-.more {
+.more ul {
   font-size: 19px;
+  --list-margin: -30px;
+  margin-left: var(--list-margin);
 }
 
 .more li {
-  list-style-type: square;
+  list-style-type: none;
 }
 
 footer {
