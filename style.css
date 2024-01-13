@@ -2,7 +2,7 @@
 
 /* For headings - font-family: 'Noto Serif KR', serif; */
 
-/* For normal texts - font-family: 'Poppins', sans-serif; */
+/* For texts - font-family: 'Poppins', sans-serif; */
 
 :root {
   --left-margin: 8px;
@@ -17,10 +17,6 @@
     align-items: center;
   }
 
-  h2 {
-    font-size: 25px;
-  }
-
   iframe {
     width: 400px;
     height: 250px;
@@ -28,32 +24,31 @@
   }
 }
 
-/* @media screen and (max-width: 450px) {
-  header {
-    --header-margin: 20px;
-    margin-left: var(--header-margin);
-  } */
-
-header {
-  display: flex;
-  flex-direction: row;
-}
-
-iframe {
-  width: 320px;
-  height: 250px;
-  margin: auto;
-}
-
 body {
   background-image: url(Medias/home.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 30px;
 }
 
-img {
-  margin-left: var(--left-margin);
+header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 900px;
+  margin-top: 10px;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
 }
 
 #start {
@@ -65,25 +60,6 @@ img {
 
 h2 {
   font-family: var(--heading-font);
-  text-align: center;
-  font-size: 45px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-}
-
-nav ul li {
-  padding: 5px;
-  font-size: 20px;
-}
-
-h2 {
-  font-family: var(--heading-font);
-  margin-left: var(--left-margin);
 }
 
 h4 {
@@ -95,12 +71,10 @@ h4 {
   text-decoration-color: #1fffdddb;
   text-decoration-skip-ink: auto;
   text-underline-offset: 4px;
-  margin-left: var(--left-margin);
 }
 
 p {
   font-family: "Noto Serif KR", serif;
-  margin-left: var(--left-margin);
 }
 
 .embedvid {
