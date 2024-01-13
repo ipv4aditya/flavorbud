@@ -4,15 +4,14 @@
 
 /* For normal texts - font-family: 'Poppins', sans-serif; */
 
-
 :root {
   --left-margin: 8px;
   --heading-font: "Poppins", sans-serif;
 }
 
-@media screen and (min-width: 360px) and (max-width: 470px) {
+@media screen and (min-width: 340px) and (max-width: 470px) {
   header {
-    margin-right: -20px;
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
