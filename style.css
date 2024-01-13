@@ -9,7 +9,6 @@
 }
 
 @media screen and (min-width: 340px) and (max-width: 470px) {
-
   body {
     --mobile-left-margin: -10px;
     margin-left: var(--mobile-left-margin);
@@ -19,7 +18,7 @@
     --header-margin: 15px;
     margin-left: var(--header-margin);
   }
-  
+
   h1 {
     font-family: "Noto Serif KR", serif;
     margin-right: 50px;
@@ -30,10 +29,13 @@
     margin-left: -90px;
   }
 
+  .embedvid p{
+    margin-left: -2px;
+  }
   iframe {
-    width: 200px;
+    width: 300px;
     height: 250px;
-    margin: auto;
+    margin-right: 40px;
   }
 }
 
