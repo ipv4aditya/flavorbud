@@ -39,31 +39,27 @@ header {
   margin-bottom: 80px;
 }
 
-header > img{
-  --header-margin: 20px;
+header > img {
+  --header-margin: 15px;
   margin-left: var(--header-margin);
 }
 
 h1 {
   font-family: "Noto Serif KR", serif;
-  margin: 0 auto; /* Set left and right margins to auto for centering */
-}
-
-nav{
-
+  margin-left: 520px;
 }
 
 ul {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  margin-left: 90px;
+  margin-left: 350px;
 }
 
 ul li {
   list-style: none;
+  font-size: 20px;
   padding: 5px;
-  padding-top: 15px;
+  padding-top: 8px;
+
 }
 
 #start {
