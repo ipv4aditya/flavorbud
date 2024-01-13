@@ -17,12 +17,8 @@
     align-items: center;
   }
 
-  h1 {
+  h2 {
     font-size: 25px;
-  }
-
-  nav {
-    margin-top: -15px;
   }
 
   iframe {
@@ -38,16 +34,16 @@
     margin-left: var(--header-margin);
   } */
 
-header{
+header {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
 
-  iframe {
-    width: 320px;
-    height: 250px;
-    margin: auto;
-  }
+iframe {
+  width: 320px;
+  height: 250px;
+  margin: auto;
+}
 
 body {
   background-image: url(Medias/home.png);
@@ -67,7 +63,7 @@ img {
   margin-bottom: 70px;
 }
 
-h1 {
+h2 {
   font-family: var(--heading-font);
   text-align: center;
   font-size: 45px;
