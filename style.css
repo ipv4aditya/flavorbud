@@ -9,15 +9,29 @@
 }
 
 @media screen and (min-width: 340px) and (max-width: 470px) {
-  header {
-    margin-right: 20px;
+
+  body {
+    --mobile-left-margin: -10px;
+    margin-left: var(--mobile-left-margin);
+  }
+
+  header > img {
+    --header-margin: 15px;
+    margin-left: var(--header-margin);
+  }
+  
+  h1 {
+    font-family: "Noto Serif KR", serif;
+    margin-right: 50px;
+  }
+
+  nav ul {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-left: -90px;
   }
 
   iframe {
-    width: 400px;
+    width: 200px;
     height: 250px;
     margin: auto;
   }
@@ -28,20 +42,20 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 30px;
 }
 
-a{
-  color: #1fffdddb;
+a {
+  color: black;
   text-decoration: none;
 }
 
 header {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Align items vertically in the center */
+  align-items: center;
   margin-top: 40px;
   margin-bottom: 80px;
+  margin-left: 30px;
 }
 
 header > img {
@@ -76,12 +90,14 @@ ul li {
 
 h2 {
   font-family: var(--heading-font);
+  margin-left: 30px;
 }
 
 h4 {
   font-size: 18px;
   font-family: var(--heading-font);
   margin-bottom: -10px;
+  margin-left: 30px;
   text-decoration: underline;
   text-decoration-thickness: 3.4px;
   text-decoration-color: #1fffdddb;
@@ -91,6 +107,7 @@ h4 {
 
 p {
   font-family: "Noto Serif KR", serif;
+  margin-left: 30px;
 }
 
 .embedvid {
@@ -99,16 +116,16 @@ p {
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
+  margin-left: 30px;
 }
 
 .more ul {
   font-size: 19px;
-  --list-margin: -30px;
-  margin-left: var(--list-margin);
 }
 
 .more li {
   list-style-type: none;
+  margin-left: -5px;
 }
 
 footer {
