@@ -31,6 +31,11 @@ body {
   margin: 30px;
 }
 
+a{
+  color: blue;
+  text-decoration: none;
+}
+
 header {
   display: flex;
   flex-direction: row;
