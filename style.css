@@ -32,22 +32,22 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   header {
     --header-margin: 20px;
     margin-left: var(--header-margin);
-  }
+  } */
 
-  nav {
-    margin-top: -15px;
-  }
+header{
+  display: flex;
+  flex-direction: row;  
+}
 
   iframe {
     width: 320px;
     height: 250px;
     margin: auto;
   }
-}
 
 body {
   background-image: url(Medias/home.png);
@@ -58,11 +58,6 @@ body {
 
 img {
   margin-left: var(--left-margin);
-}
-
-header {
-  margin-bottom: 60px;
-  margin-top: 55px;
 }
 
 #start {
