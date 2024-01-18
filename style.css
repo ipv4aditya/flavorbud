@@ -18,15 +18,14 @@
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  font-family: var(--heading-font);
   position: sticky;
   top: 0;
-  background-color: black;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(121, 156, 148);
   color: white;
-  width: 100%;
-border-radius: 10px;
+  border-radius: 10px;
+  font-family: var(--heading-font);
 }
 
 header h1 {
@@ -53,6 +52,11 @@ nav a {
 
 h2,
 h4 {
-  font-size: ;
-  font-family: "Poppins", sans-serif;
+    font-family: var(--heading-font);
+}
+
+
+
+p{
+    font-family: var(--text-font);
 }
