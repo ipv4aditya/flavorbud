@@ -30,12 +30,14 @@ header {
 
 header h1 {
   margin-right: auto;
+  padding-left: 10px;
 }
 
 header nav ul {
   display: flex;
   margin-top: 30px;
   margin-right: auto;
+  padding-right: 10px;
 }
 
 nav ul li {
@@ -50,13 +52,25 @@ nav a {
   color: rgb(255, 255, 255);
 }
 
-h2,
-h4 {
-    font-family: var(--heading-font);
+h2 {
+  font-family: var(--heading-font);
+  font-size: 1.4rem;
+  font-weight: bolder;
 }
 
+h4 {
+  font-family: var(--heading-font);
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
 
+p {
+  font-family: var(--text-font);
+  font-size: 1.1rem;
+}
 
-p{
-    font-family: var(--text-font);
+.more {
+  margin-top: 55px;
+  font-size: 1.1rem;
+  font-family: var(--text-font);
 }
