@@ -1,6 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR&family=Poppins&display=swap");
 
-/* For headings - font-family: 'Noto Serif KR', serif; */
-/* For texts - font-family: 'Poppins', sans-serif; */
+/* Headings - font-family: 'Noto Serif KR', serif; */
+/* Texts - font-family: 'Poppins', sans-serif; */
 
+:root{
+    --heading-font: 'Noto Serif KR', serif;
+    --text-font: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    font-family: var(--heading-font);
+}
+
+header nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+}
 
